@@ -1,0 +1,23 @@
+import personas.*
+
+const Perla = new Atletas(edad = 28, cantTecnicasConocidas = 4, masaMuscular = 6)
+
+describe "Perla entrena"{
+	method initialize(){
+		Perla.entrenar(15)
+		Perla.aprenderUnaTecnica()
+	}
+	test"Potencia es 65"{
+		assert.equals(65,Perla.potencia())
+	}
+	
+	test"No es destacada"{
+		assert.notThat(Perla.esDestacada())
+	}
+	
+	test"Es destacada"{
+		Perla.aprenderUnaTecnica()
+		
+		assert.that(Perla.esDestacada())
+	}
+}
