@@ -33,7 +33,7 @@ class Atletas inherits Personas{
 	}
 	
 	override method ofrecerTributo(unPlaneta){
-		unPlaneta.construirMuralla(2)
+		unPlaneta.construirMurallas(2)
 	}
 }
 

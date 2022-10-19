@@ -7,7 +7,7 @@ const Rosa = new Atletas(edad = 45, cantTecnicasConocidas = 8)
 const Perla = new Atletas(edad = 28, cantTecnicasConocidas = 4, masaMuscular = 6)
 const Monica = new Docentes(edad = 45, cantidadDeCursos = 6)
 const Luisa = new Docentes(edad = 35, cantidadDeCursos = 1)
-const Triton = new Planetas(habitantes = #{Julieta,Ana, Rosa, Perla, Monica, Luisa})
+const Triton = new Planetas(habitantes = #{Julieta,Ana, Rosa, Perla, Monica, Luisa},longitudTotalMurallas = 0)
 
 describe "Para Julieta"{
 	test "Julieta Potencia es 20"{
